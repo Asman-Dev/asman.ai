@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asman.ai</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+                <div class="img animate__animated animate__zoomIn">
+                    <img src="/img/img-1.jpg" alt="">
+                </div>
+                <div class="name animate__animated animate__fadeInUp">
+                    <p>Asman Aris</p>
+                </div>
+                <div class="quotes animate__animated animate__fadeInUp">
+                    <p>Soal fisik saya memang kalah, tapi soal kalah saya menang😎🙋‍♂️</p>
+                </div>
+                <div class="icon animate__animated animate__fadeInUp">
+                    <a href="#" onclick="akanHadir()"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" onclick="tekan()"><i class='bx bxs-user'></i></a>
+                    <a href="#" onclick="akanHadir()"><i class='bx bxl-github' ></i></a>
+                </div>
+                <div class="btn animate__animated animate__fadeInUp">
+                    <a href="https://classic-portofolio.vercel.app/">Classic Portofolio</a>
+                    <a href="https://asman-dev.vercel.app/">Modern Portofolio</a>
+                    <a href="https://kpknl.vercel.app/">KPKNL (Front-End Only)</a>
+                    <a href="#" onclick="akanHadir()">Coming Soon</a>
+                    <a href="#" onclick="akanHadir()">Coming Soon</a>
+                </div>
+                <div class="copyright animate__animated animate__fadeInUp">
+                    <p>&copy;2024 Asman Aris</p>
+                    <p>All Right Reserve</p>
+                </div>
+        </div>
+    </div>
+</body>
+<script>
+    function tekan(){
+        Swal.fire({
+        imageUrl: "img/agus.jpg",
+        imageHeight: 400,
+        text: "Hati Hati!",
+    })
+    }
+    
+    function akanHadir(){
+        Swal.fire({
+        title: "Dih...Kepo",
+        text: "Ngak ada, ngak ada",
+        icon: "error"
+    })
+    }
+    
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
